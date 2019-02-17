@@ -6,11 +6,11 @@ let json = JSON.stringify(xlData);
 
 console.log(">>"+json);
 
-Object.keys(xlData).forEach(function(key) {
+for (key in xlData) {
     console.log(key, xlData[key]);
-    
-    Object.keys(xlData[key]).forEach(function(x){
+    for (x in xlData[key]) {
         console.log(x,xlData[key][x]);
-    });
-});
+    }
+}
+
 
