@@ -1,0 +1,27 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Excel nodejs",
+  "main": "script.js",
+  "dependencies": {
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsouzaribeiro/converter-xlsx-para-json-nodejs-xlsx-converter-for-json-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "excel"
+  ],
+  "author": "Rafael souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelsouzaribeiro/converter-xlsx-para-json-nodejs-xlsx-converter-for-json-nodejs/issues"
+  },
+  "homepage": "https://github.com/rafaelsouzaribeiro/converter-xlsx-para-json-nodejs-xlsx-converter-for-json-nodejs#readme"
+}
